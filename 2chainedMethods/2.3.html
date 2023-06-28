@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Problem 2.3</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <!-- Problem statement: Edit a Custom SVG
+                        Create a complex svg shape using https://yqnn.github.io/svg-path-editor/
+                        place the path you have created inside the svg tag and give it some properties. 
+                        Play around with different kinds of transforms -->
+        
+  <svg d="M 0 0 A 1 1 0 0 0 4 0 A 1 1 0 0 0 6 0 A 1 1 0 0 0 9 0 A 1 1 0 0 0 12 -3 A 1 1 0 0 0 10 -5 A 1 1 0 0 0 8 -6 A 1 1 0 0 0 2 -6 A 1 1 0 0 0 -2 -4 A 1 1 0 0 0 -5 -2 A 1 1 0 0 0 -4 0 Z"></cloud>
+  </svg>
+
+  <script>
+  d3.select("svg")
+    .attr("fill", "red")
+
+  </script>
+</body>
+</html>
